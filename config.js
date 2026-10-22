@@ -18,14 +18,14 @@ module.exports = {
   // PostgreSQL database connection.
   // If the database does not exist yet, the app will try to create it
   // automatically (the user must have permission to create databases).
-  database: {
-    host: 'localhost',
-    port: 5432,
-    user: 'postgres',
-    password: 'postgres',
-    database: 'khabarer_khobor',
-    ssl: false            // set true for most cloud databases (Neon, Supabase, Render...)
-  },
+database: {
+  host: '201.18.212.48',
+  port: 5440,
+  user: 'postgres',
+  password: 'MyPoA4yo1EuU7P5JRFl57znFFNR3Xq2U8cnESdYvyYOk8GNAA8VdSxwSpWQFdmlB',
+  database: 'postgres',
+  ssl: false
+},
 
   // First login (created automatically on first start only).
   // CHANGE THE PASSWORD from Admin → Users after your first login!
